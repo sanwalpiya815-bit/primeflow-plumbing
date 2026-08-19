@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Professional plumbing services for homes and businesses. Emergency plumbing, drain cleaning, water heaters and more.">
+<title>PrimeFlow Plumbing | 24/7 Professional Plumbing Services</title>
+<style>
+:root{--navy:#071b33;--blue:#0876d1;--cyan:#12b8e8;--light:#f4f8fc;--ink:#142235;--muted:#617084;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+.top{background:var(--navy);color:#fff;padding:9px 6%;display:flex;justify-content:space-between;font-size:14px}
+.top a{color:#fff;text-decoration:none;font-weight:700}
+header{background:#fff;padding:18px 6%;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:10;box-shadow:0 3px 18px #071b3318}
+.logo{font-size:25px;font-weight:900;color:var(--navy)}.logo span{color:var(--blue)}
+nav a{margin-left:24px;text-decoration:none;color:var(--ink);font-weight:700}
+.hero{min-height:650px;display:flex;align-items:center;padding:70px 6%;background:linear-gradient(110deg,#071b33 0%,#0a3763 62%,#0b75c9 100%);color:#fff}
+.hero-inner{max-width:760px}.badge{display:inline-block;background:#ffffff1c;border:1px solid #ffffff45;padding:8px 14px;border-radius:30px;margin-bottom:18px;font-weight:700}
+h1{font-size:clamp(42px,6vw,72px);line-height:1.04;margin-bottom:20px}.hero p{font-size:20px;color:#e4eef8;max-width:650px;margin-bottom:30px}
+.btn{display:inline-block;text-decoration:none;padding:15px 25px;border-radius:8px;font-weight:800;margin-right:10px}.primary{background:#12b8e8;color:#06203a}.secondary{border:1px solid #fff;color:#fff}
+.trust{background:#fff;padding:28px 6%;display:flex;justify-content:center;gap:60px;flex-wrap:wrap;font-weight:800}
+section{padding:78px 6%}.center{text-align:center}.eyebrow{color:var(--blue);font-weight:900;text-transform:uppercase;letter-spacing:1.5px}.title{font-size:40px;line-height:1.15;margin:8px 0 14px}.subtitle{color:var(--muted);max-width:700px;margin:0 auto 38px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{padding:30px;background:#fff;border:1px solid #e1e9f1;border-radius:15px;box-shadow:0 10px 30px #071b330c}.icon{font-size:34px;margin-bottom:12px}.card h3{font-size:21px;margin-bottom:8px}.card p{color:var(--muted)}
+.dark{background:var(--navy);color:#fff}.dark .subtitle{color:#c8d6e5}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:35px}.stat{padding:25px;text-align:center;border:1px solid #ffffff22;border-radius:12px}.stat b{display:block;font-size:34px;color:#12b8e8}
+.area{background:var(--light)}.area-list{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:25px}.pill{background:#fff;border:1px solid #dce6ef;padding:10px 16px;border-radius:30px;font-weight:700}
+.cta{background:linear-gradient(100deg,#0876d1,#12b8e8);color:#fff;text-align:center}.cta p{margin:10px auto 25px;max-width:650px}
+form{max-width:760px;margin:30px auto 0;display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{padding:15px;border:1px solid #d8e2ec;border-radius:8px;font:inherit;width:100%}textarea{min-height:130px;grid-column:1/-1}.submit{grid-column:1/-1;border:0;cursor:pointer;background:var(--navy);color:#fff;padding:15px;border-radius:8px;font-weight:800;font-size:16px}
+footer{background:#041426;color:#aebfd0;padding:30px 6%;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-brand{color:#fff;font-weight:900;font-size:20px}
+@media(max-width:800px){nav{display:none}.grid,.stats{grid-template-columns:1fr 1fr}.hero{min-height:570px}form{grid-template-columns:1fr}.submit,textarea{grid-column:auto}}
+@media(max-width:520px){.top{display:block;text-align:center}.grid,.stats{grid-template-columns:1fr}.trust{gap:20px}}
+</style>
+</head>
+<body>
+<div class="top"><span>24/7 Emergency Plumbing Available</span><a href="tel:+18005550199">📞 Call Now: (800) 555-0199</a></div>
+<header>
+<div class="logo">PrimeFlow <span>Plumbing</span></div>
+<nav><a href="#services">Services</a><a href="#why">Why Us</a><a href="#areas">Service Areas</a><a href="#contact">Contact</a></nav>
+</header>
+
+<section class="hero">
+<div class="hero-inner">
+<div class="badge">⭐ Trusted Local Plumbing Service</div>
+<h1>Fast. Reliable. Professional Plumbing.</h1>
+<p>From emergency leaks to water heater repairs, our professional plumbing team is ready to help homeowners and businesses get the job done right.</p>
+<a class="btn primary" href="tel:+18005550199">Call for Service</a>
+<a class="btn secondary" href="#contact">Request a Quote</a>
+</div>
+</section>
+
+<div class="trust"><span>✓ Licensed & Professional</span><span>✓ Upfront Service</span><span>✓ Fast Response</span><span>✓ Residential & Commercial</span></div>
+
+<section id="services">
+<div class="center"><div class="eyebrow">What We Do</div><h2 class="title">Complete Plumbing Services</h2><p class="subtitle">Professional solutions for common plumbing problems, maintenance and emergency service.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">🚿</div><h3>Emergency Plumbing</h3><p>Fast response for urgent leaks, burst pipes and other plumbing emergencies.</p></div>
+<div class="card"><div class="icon">🛁</div><h3>Drain Cleaning</h3><p>Clear slow or clogged drains and help keep your plumbing flowing smoothly.</p></div>
+<div class="card"><div class="icon">🔥</div><h3>Water Heaters</h3><p>Water heater troubleshooting, repair, replacement and installation.</p></div>
+<div class="card"><div class="icon">💧</div><h3>Leak Repair</h3><p>Find and repair plumbing leaks before they cause expensive water damage.</p></div>
+<div class="card"><div class="icon">🔧</div><h3>Pipe Repair</h3><p>Professional repair solutions for damaged, aging or leaking pipes.</p></div>
+<div class="card"><div class="icon">🏠</div><h3>Residential Plumbing</h3><p>Reliable plumbing service for kitchens, bathrooms, homes and properties.</p></div>
+</div>
+</section>
+
+<section id="why" class="dark">
+<div class="center"><div class="eyebrow">Why PrimeFlow</div><h2 class="title">Service You Can Count On</h2><p class="subtitle">We focus on clear communication, dependable workmanship and a smooth customer experience from first contact to completed service.</p></div>
+<div class="stats"><div class="stat"><b>24/7</b>Emergency Support</div><div class="stat"><b>6+</b>Core Services</div><div class="stat"><b>100%</b>Customer Focus</div><div class="stat"><b>Fast</b>Response</div></div>
+</section>
+
+<section id="areas" class="area">
+<div class="center"><div class="eyebrow">Service Areas</div><h2 class="title">Serving Your Local Community</h2><p class="subtitle">Replace the example locations below with your actual service areas before publishing.</p></div>
+<div class="area-list"><span class="pill">New Jersey</span><span class="pill">New York</span><span class="pill">Pennsylvania</span><span class="pill">Delaware</span><span class="pill">Nearby Areas</span></div>
+</section>
+
+<section id="contact" class="cta">
+<div class="center"><div class="eyebrow" style="color:#fff">Get Help Today</div><h2 class="title">Need a Plumber?</h2><p>Tell us what you need and our team will contact you. For urgent plumbing problems, call now.</p><a class="btn secondary" href="tel:+18005550199">📞 (800) 555-0199</a></div>
+<form onsubmit="event.preventDefault();alert('Thanks! This demo form is ready to connect to your email/CRM.');">
+<input class="field" placeholder="Full Name" required><input class="field" type="tel" placeholder="Phone Number" required>
+<input class="field" type="email" placeholder="Email Address"><input class="field" placeholder="Service Needed">
+<textarea class="field" placeholder="Tell us briefly about your plumbing issue"></textarea>
+<button class="submit" type="submit">Request Service</button>
+</form>
+</section>
+
+<footer><div><div class="footer-brand">PrimeFlow Plumbing</div><div>Professional plumbing services for homes and businesses.</div></div><div>© 2026 PrimeFlow Plumbing. All rights reserved.</div></footer>
+</body>
+</html>
